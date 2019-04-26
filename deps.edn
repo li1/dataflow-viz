@@ -1,0 +1,8 @@
+{:paths   ["src"]
+ :deps    {aysylu/loom {:mvn/version "1.0.2"}}
+ :aliases {:uberjar
+           {:extra-deps
+            {luchiniatwork/cambada {:mvn/version "1.0.0"}}
+            :main-opts
+            ["-m" "cambada.uberjar"
+             "-m" "viz.core"]}}}
