@@ -64,6 +64,10 @@ Once you've moved `ops.edn` and `chs.edn` (or whatever you've called them) to th
 
 For the provided `ops.edn` and `chs.edn`, it looks like this:
 
+<p align="center">
+  <img src="https://github.com/li1/dataflow-viz/raw/master/exemplary-graph.png" width="250">
+</p>
+
 
 **Note:** Currently I don't respect `Channels` ports, so you'll have to take the visualization with a grain of salt.
 
